@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Tammudu|Questrial|Righteous');
+*{
+    margin: 0;
+    padding: 0;
+}
+.Father {
+    display: flex;
+    list-style: none;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom:  1px solid #D4D2CF;
+}
+.container{
+    width: 100vw;
+}
+li{
+    font-family: 'Questrial', sans-serif;
+    padding: 20px;
+    margin-right: 20px;
+    color: #D4D2CF;
+    transition: all 0.5s ease-in-out;
+}
+li:hover{
+    color: #7EBB42;
+}
+.LOGO {
+    color: #7EBB42;
+    font-family: 'Righteous', cursive;
+    font-size: 24px;
+}
+.Sec{
+    font-family: 'Baloo Tammudu', cursive;
+    border-right: 1px solid #D4D2CF;
+    padding-right: 20px;
+    border-left: 1px solid #D4D2CF;
+    padding-left: 20px;
+    color: #747069;
+
+}
+.Meal {
+    margin-right: 70px;
+}
+button{
+    padding: 10px 20px;
+    background: #7EBB42;
+    border: 0;
+    color: white;
+    border-radius: 5px;
+}

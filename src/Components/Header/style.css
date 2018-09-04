@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Tammudu|Questrial|Righteous');
+.Fit {
+    position: relative;
+    text-align: center;
+    color: white;
+    background-image: url(bg.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;   
+}
+i{
+    margin-left: 15px;
+}
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Questrial', sans-serif;
+    font-size: 50px;
+    color: white;
+}
+h3{
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Questrial', sans-serif;
+    font-size: 25px;
+    color: white;
+}
+.group{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: baseline;
+    top: 80%;
+    left: 272px;
+    position: absolute;
+}
+.btn-group{
+    list-style: none;
+    padding: 15px 30px;
+    background-color: white;
+    border: 3px solid #DDDDDD;
+    border-radius: 3px;
+    color: black;
+    font-family: 'Questrial', sans-serif;
+}
+
+.dropdown-content {
+    display: none;
+    transition: all 2s ease-in-out;
+}
+
+.dropdown-content a , .show1 a, .show2 a, .show3 a, .show4 a{
+    color: black;
+    margin-top: 15px;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.show1 {
+    display: block;
+    min-width: 160px;
+    z-index: 1;
+    background-color: red;
+}
+.show2 {
+    display: block;
+    min-width: 160px;
+    z-index: 1;
+    background-color: yellow;
+}
+.show3 {
+    display: block;
+    min-width: 160px;
+    z-index: 1;
+    background-color: orange;
+}
+.show4 {
+    display: block;
+    min-width: 160px;
+    z-index: 1;
+    background-color: Blue;
+}
