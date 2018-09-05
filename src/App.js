@@ -42,7 +42,7 @@ class App extends Component {
                   <input type="email" placeholder="E-Mail" required/>
                   <a href="#" className="button"  onClick={this.onLogin}>Login</a>
               </form>
-              <a onClick={this.onToggle}>Not a user ?</a>
+              <a href='#' onClick={this.onToggle}>Not a user ?</a>
            </div>
         </div>
         <div className={sign}>
@@ -54,7 +54,7 @@ class App extends Component {
                   <input type="password" placeholder="password" required/>
                   <a href="#" className="button" onClick={this.onRegister}>Sign Up</a>
               </form>
-              <a onClick={this.onToggle}>Already a member ?</a>
+              <a href='#' onClick={this.onToggle}>Already a member ?</a>
            </div>
         </div>
     </div>);

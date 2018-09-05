@@ -44,7 +44,7 @@ class Nav extends Component {
                         <a>
                             <span>Type of events <i className="fa fa-sort-down"></i></span>
                         </a>
-                        <div id="myDropdown" class={btn_class1}>
+                        <div id="myDropdown" className={btn_class1}>
                             <a href="#">Link 1</a>
                             <a href="#">Link 2</a>
                             <a href="#">Link 3</a>
@@ -54,7 +54,7 @@ class Nav extends Component {
                         <a>
                             <span>Any neighborhood <i className="fa fa-sort-down"></i></span>
                         </a>
-                        <div id="myDropdown" class={btn_class2}>
+                        <div id="myDropdown" className={btn_class2}>
                             <a href="#">Link 1</a>
                             <a href="#">Link 2</a>
                             <a href="#">Link 3</a>
@@ -64,7 +64,7 @@ class Nav extends Component {
                         <a>
                             <span>Anytime <i className="fa fa-sort-down"></i></span>
                         </a>
-                        <div id="myDropdown" class={btn_class3}>
+                        <div id="myDropdown" className={btn_class3}>
                             <a href="#">Link 1</a>
                             <a href="#">Link 2</a>
                             <a href="#">Link 3</a>
@@ -74,7 +74,7 @@ class Nav extends Component {
                         <a>
                             <span>Date <i className="fa fa-sort-down"></i></span>
                         </a>
-                        <div id="myDropdown" class={btn_class4}>
+                        <div id="myDropdown" className={btn_class4}>
                             <a href="#">Link 1</a>
                             <a href="#">Link 2</a>
                             <a href="#">Link 3</a>
