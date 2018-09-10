@@ -10,9 +10,12 @@ class Recipes extends Component {
                 <div className='Recipe'>
                     <div className='content'>
                         <a href="#">
-                            <img src={Recipe.Chefimg} alt="x"/>
-                            <h1>{Recipe.Title}</h1>
+                            <img src={Recipe.Image} alt="x"/>
                         </a>
+                            <h1>{Recipe.Title}</h1>
+                            <img src={Recipe.Chefimg} alt="x"/>
+                            <p>{Recipe.Place}</p>
+                            <button>${Recipe.Price}</button>
                     </div>
                 </div>
                 ))
