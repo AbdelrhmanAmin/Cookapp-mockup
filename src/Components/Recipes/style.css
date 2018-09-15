@@ -1,3 +1,16 @@
-h1 {
-    color: red;
+.content {
+    margin: 0 20px 50px 80px;
+    border-radius: 5px;
+    border: 1px solid #B6B7B9;
+    padding: 20px;
+}
+.recipe{
+    width: 400px;
+    height: 250px;
+}
+.cheif {
+    width: 100px;
+    position: relative;
+    margin-top: -105px;
+    left: 70%;
 }

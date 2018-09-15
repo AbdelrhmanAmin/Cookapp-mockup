@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import Nav from './Components/Nav';
 import Header from './Components/Header';
 import Recipes from './Components/Recipes';
-import data from './Data/Recipes.json';
+import data from './Data/Recipe1.json';
+import data2 from './Data/Recipe2.json';
 import './App.css';
 
 
@@ -59,7 +60,7 @@ class App extends Component {
               <a href='#' onClick={this.onToggle}>Already a member ?</a>
            </div>
         </div>
-        <Recipes Recipes={data.Recipes}/>
+        <Recipes Recipes={data.Recipes} Recipes2={data2.Recipes}/>
     </div>);
   }
 }
