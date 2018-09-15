@@ -9,8 +9,9 @@
     height: 250px;
 }
 .cheif {
-    width: 100px;
+    width: 90px;
+    height: 90px;
     position: relative;
-    margin-top: -105px;
-    left: 70%;
+    margin-top: -20%;
+    left: 75%;
 }
